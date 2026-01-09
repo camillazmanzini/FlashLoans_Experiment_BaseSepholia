@@ -1,4 +1,4 @@
-# Flash Loan Mock --- Experimento Base Sepolia
+# Flash Loan Mock - Experimento Base Sepolia
 
 ## Visão Geral
 
