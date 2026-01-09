@@ -1,0 +1,115 @@
+# ============================
+#  Node.js / TypeScript
+# ============================
+node_modules/
+dist/
+build/
+.cache/
+.tmp/
+*.log
+*.tsbuildinfo
+
+# Compilados (Remix gera JS ao salvar TS)
+*.js
+*.js.map
+
+# ============================
+#  Remix IDE / Ambiente local
+# ============================
+.remix/
+.remixd/
+.remix-project
+.remix-snapshots
+*.sol.js
+*.abi
+*.bin
+
+# ============================
+#  Configurações locais / IDEs
+# ============================
+
+# Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains / WebStorm
+.idea/
+
+# VS / Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ============================
+#  Sistema Operacional
+# ============================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.nfs*
+
+# ============================
+#  Ambientes e Secrets
+# ============================
+.env
+.env.*
+!.env.example
+*.secret
+secrets/
+credentials/
+.key
+.pem
+
+# ============================
+#  Logs e temporários
+# ============================
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# ============================
+#  Compilação Hardhat / Aave
+# ============================
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+gas-report.txt
+
+# ============================
+#  Testes
+# ============================
+*.spec.ts
+*.test.ts
+*.coverage
+nyc_output/
+coverage/
+
+# ============================
+#  Gerados por pacotes
+# ============================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================
+#  Sistema de build Remix/Aave
+# ============================
+scripts/output/
+deployments/
+compiled_contracts/
